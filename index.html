@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="head">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLB3jvUAcfQ6ssYqr-MIOvaNqr0fBUL7zJqrTYcJ-KiT1QpmL7P1l4Vt9XZNj_20H1C_4&usqp=CAU" alt="temperature">
+    <h1>TEMPERATURE CONVERTER</h1>
+  </div>
+  <div id="converter">
+    <h2>Temperature Converter</h2>
+    <hr />
+    <label id="l1">Degrees</label>
+    <input id="d1" type="number" placeholder="Enter a number here" >
+    <label id="l2">Convert From</label>
+    <select  id="d2">
+      <option value="1">Celsius</option>
+      <option value="2">Fahrenheit</option>
+      <option value="3">Kelvin</option>
+    </select>
+    <input id="d3" type="text" placeholder="Result">
+    <label id="l4">Convert To</label>
+    <select  id="d4">
+      <option value="1">Celsius</option>
+      <option value="2">Fahrenheit</option>
+      <option value="3">Kelvin</option>
+    </select>
+    <button onclick="convertTemperature()">Convert</button>
+
+    <p id="result"></p>
+  </div>
+
+
+</body>
+</html>
